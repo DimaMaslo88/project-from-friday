@@ -1,0 +1,20 @@
+.superInput {
+border: 3px solid #17bdaf;
+    background: #a9ee87;
+    border-radius: 2px;
+}
+
+.errorInput {
+    border: 3px solid #e71131;
+    background: #a9ee87;
+    border-radius: 2px;
+}
+
+.error {
+    color: red;
+}
+.input:focus {
+    border: 3px solid black;
+    background: antiquewhite;
+
+}
