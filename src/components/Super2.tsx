@@ -30,10 +30,7 @@ const Super2 = () => {
             <SuperButton className={s.button} onClick={save}>save</SuperButton>
             <SuperButton className={s.button} onClick={restore}>restore</SuperButton>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
-            <hr/>
+
         </div>
     )
 }
