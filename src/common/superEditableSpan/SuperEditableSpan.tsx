@@ -1,6 +1,7 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from 'react'
-import s from '../../../../../src/p1-main/m1-ui/u1-app/App.module.css'
+import s from '../../components/super2.module.css'
 import SuperInputText from "../superInput/SuperInputText";
+
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 // тип пропсов обычного спана
@@ -41,7 +42,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onBlur && onBlur(e)
     }
     const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
-         setEditMode(true) // включить editMode при двойном клике
+        setEditMode(true) // включить editMode при двойном клике
 
         onDoubleClick && onDoubleClick(e)
     }

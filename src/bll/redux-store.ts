@@ -5,6 +5,7 @@ import {ProfileReducer} from "./ProfileReducer";
 import {SignUpReducer} from "./SignUpReducer";
 import {TestPageReducer} from "./TestPageReducer";
 import thunk from "redux-thunk";
+import {themeReducer} from "./superComponentsReducer/themeReducer";
 
 
 const rootReducer = combineReducers({
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
     password:PasswordReducer,
     profile:ProfileReducer,
     signUp:SignUpReducer,
-    testPage:TestPageReducer
+    testPage:TestPageReducer,
+    theme:themeReducer
 })
 
 
